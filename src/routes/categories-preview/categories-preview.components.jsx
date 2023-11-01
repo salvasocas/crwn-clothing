@@ -12,7 +12,6 @@ import Spinner from "../../component/spinner/spinner.component";
 const CategoriesPreview = () => {
   const categoriesMap = useSelector(selectCategoriesMap);
   const isLoading = useSelector(selectIsLoading);
-  console.log(isLoading);
 
   return (
     <Fragment>
